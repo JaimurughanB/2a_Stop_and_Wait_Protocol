@@ -26,7 +26,7 @@ while True:
     else:
         c.close()
         break
-````
+``````
 ## server:
 ```````
 import socket
@@ -36,7 +36,7 @@ while True:
     print(s.recv(1024).decode())
     s.send("Acknowledgement Recived".encode())
     ``````
-## OUTPUT
+## OUTPUT:
 ![image](https://github.com/user-attachments/assets/67e408a2-fd5e-43e8-93ef-284ad864fd0e)
 ![image](https://github.com/user-attachments/assets/56230e99-0160-495b-ac4b-21fcea133efc)
 
