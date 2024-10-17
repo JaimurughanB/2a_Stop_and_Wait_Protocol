@@ -27,15 +27,15 @@ while True:
         c.close()
         break
 ``````
-## SERVER.PY:
-```````
-import socket
-s=socket.socket()
-s.connect(('localhost',8000))
-while True:
-    print(s.recv(1024).decode())
+## SERVER.PY
+```
+import socket 
+s=socket.socket() 
+s.connect(('localhost',8000)) 
+while True: 
+    print(s.recv(1024).decode()) 
     s.send("Acknowledgement Recived".encode())
-    ````````````````````````````````````````
+```
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/66f9e686-ae27-4341-9502-8dd0c959e91e)
 
