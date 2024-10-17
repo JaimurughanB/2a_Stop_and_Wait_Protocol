@@ -27,7 +27,7 @@ while True:
         c.close()
         break
 ``````
-## server:
+## server.PY:
 ```````
 import socket
 s=socket.socket()
